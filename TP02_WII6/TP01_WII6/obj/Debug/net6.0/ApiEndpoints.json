@@ -1,0 +1,72 @@
+[
+  {
+    "ContainingType": "TP01_WII6.Controllers.BooksController",
+    "Method": "ApresentarLivro",
+    "RelativePath": "api/Books/ApresentarLivro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TP01_WII6.Controllers.BooksController",
+    "Method": "GetAuthorNames",
+    "RelativePath": "api/Books/AuthorNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TP01_WII6.Controllers.BooksController",
+    "Method": "GetBookName",
+    "RelativePath": "api/Books/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TP01_WII6.Controllers.BooksController",
+    "Method": "GetBookToString",
+    "RelativePath": "api/Books/ToString",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
